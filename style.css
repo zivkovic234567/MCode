@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/bg-image.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+}
+
+.logo {
+    width: 120px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.content {
+    top: 55%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;
+
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.content h1 {
+    font-size: 52px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.content h1 span {
+    color: #207ea3;
+}
+
+.content button {
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 12px 25px;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+
+
+.content button:hover {
+    background: #fff;
+    color: #207ea3;
+    border: 2px solid #207ea3;
+    transition: .6s;
+}
+
+.launch-time {
+    display: flex;
+}
+
+.launch-time div {
+    flex-basis: 100px;
+    margin-bottom: 10px;
+}
+
+.launch-time div p {
+    font-size: 60px;
+    margin-bottom: -14px;
+}
